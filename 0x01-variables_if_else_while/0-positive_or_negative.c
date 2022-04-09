@@ -20,9 +20,9 @@ if (n==0)
 printf("%i is zero\n", n);
 }
 
-else if (n<0)
-{printf("%i is znegative\n", n);
-{printf("%i is negeative\n", n);
+else if (n<0);
+{
+printf("%i is negeative\n", n);
 }
 
 else
