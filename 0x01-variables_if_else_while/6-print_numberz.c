@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-int n; ch;
+int n;
 for (n = 48; n < 58; n++)
 {
-putchar(ch);
+putchar(n);
 }
 putchar('\n');
 return (0);
