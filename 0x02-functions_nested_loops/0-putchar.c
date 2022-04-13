@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * main - prints to the console _putchar followed by a newline
-* Return: - ALways 0 (success)
+* Return: - 0 Always (success)
 */
 int main(void)
 {
@@ -13,7 +13,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('\n');
-  
+_putchar('\n'); 
 return (0);
 }
