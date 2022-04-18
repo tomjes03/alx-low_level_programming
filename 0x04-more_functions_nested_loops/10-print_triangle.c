@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * *print_triangle - prints a triangle
  * *@size:size parameter of triangle
@@ -26,3 +27,4 @@ void print_triangle(int size)
 	}
 	_putchar('\n');
 }
+
