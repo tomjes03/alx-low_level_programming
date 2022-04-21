@@ -1,15 +1,17 @@
-#include"main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
- * swap_int - swap variable values
- * @a: pointer 1
- * @b: pointer 2
- * Return: void
+ * swap_int - Updates the value of the parameter to 98
+ * @a: The value
+ * @b: The value
+ *
+ * Return: None
  */
-void swap_int(int*a, int*b)
+void swap_int(int *a, int *b)
 {
-*a += *b;
-*b = *a - *b;
-*a = *a - *b;
+int t;
+t  = *a;
+*a = *b;
+*b = t;
 }
-
