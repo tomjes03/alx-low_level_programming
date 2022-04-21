@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * puts_half - prints half of a string
  * followed by a new line
@@ -28,3 +27,4 @@ _putchar(str[n + 1]);
 }
 _putchar('\n');
 }
+
