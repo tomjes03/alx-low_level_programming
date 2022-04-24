@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcat - concatenates two strings
  * @dest: string to append to
@@ -6,6 +7,7 @@
  *
  * Return: a pointer to the resulting string
  */
+
 char *_strcat(char *dest, char *src)
 {
 int i, j;
@@ -22,4 +24,3 @@ i++;
 dest[i] = '\0';
 return (dest);
 }
-
