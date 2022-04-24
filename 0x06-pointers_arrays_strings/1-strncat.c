@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * * _strncat - Concatenates two stings
- * * @dest: Destination string
- * * @src: the source of the string
- * * @n: number of bytes to look
- * * Return: Returns a pointer to the resulting string dest
- * */
-
+ * _strncat - Concatenates two stings
+ * @dest: Destination string
+ * @src: the source of the string
+ * @n: number of bytes to look
+ * Return: Returns a pointer to the resulting string dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 int i;
@@ -27,4 +26,3 @@ j++;
 dest[i] = '\0';
 return (dest);
 }
-
