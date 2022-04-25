@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * infinite_add - adds two numbers
  * @n1: number one.
@@ -51,5 +50,4 @@ if (*(r) == '0')
 return (r + 1);
 else
 return (r);
-
 }
