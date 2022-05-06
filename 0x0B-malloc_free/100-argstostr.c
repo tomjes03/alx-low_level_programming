@@ -29,7 +29,7 @@ return (0);
 for (j = 0; j < ac; j++)
 {
 lt = 0;
-while v[j][lt])
+while (v[j][lt])
 {
 *(s + k) = av[j][lt];
 k++;
